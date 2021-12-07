@@ -1,8 +1,3 @@
-const core = require('@actions/core');
-const github = require('@actions/github');
+const core = require('@actions/core')
 
-core.info('Hello world!!!');
-
-const token = core.getInput('GITHUB_TOKEN')
-const octokit = github.getOctokit(token)
-octokit.log.info('Octokit initialized')
+core.info('Hello world!!!')
