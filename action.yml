@@ -1,5 +1,9 @@
 name: 'spaceapps-action'
 description: 'Simple test action'
+inputs:
+  GITHUB_TOKEN:
+    description: Github access token
+    required: true
 runs:
   using: 'node12'
   main: 'index.js'

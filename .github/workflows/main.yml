@@ -9,3 +9,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Run
         uses: ./
+        with:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
