@@ -1,0 +1,5 @@
+name: 'spaceapps-action'
+description: 'Simple test action'
+runs:
+  using: 'node12'
+  main: 'index.js'
